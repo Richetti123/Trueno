@@ -109,7 +109,7 @@ let menu = `
 ⊜ *Pasatiempo(s)* ➺ ${user.pasatiempo === 0 ? '*Sin Registro*' : user.pasatiempo + '\n'}
 ⊜ *Experiencia ➟* ${exp} ⚡
 ⊜ *Diamantes ➟* ${limit} 💎
-⊜ *MichiCoins ➟* ${money} 🐈
+⊜ *TruenoCoins ➟* ${money} 🐈
 ⊜ *Tokens ➟* ${joincount} 🪙`.trim()
       
 const buttonParamsJson = JSON.stringify({
@@ -118,9 +118,9 @@ description: "Infórmate por medios oficiales sobre MichiBot",
 sections: [
 { title: "ℹ️ Información", highlight_label: "Popular",
 rows: [
-{ header: "✅ Redes", title: "🔓 Para: Todos", description: "Infórmate por medios oficiales sobre MichiBot", id: usedPrefix + "cuentasgb" },
+{ header: "✅ Redes", title: "🔓 Para: Todos", description: "Infórmate por medios oficiales sobre TruenoBot", id: usedPrefix + "cuentasgb" },
 { header: "📢 Grupos/Canales", title: "🔓 Para: Todos", description: "¡Te esperamos!", id: usedPrefix + "grupos" },
-{ header: "💸 Comprar", title: "🔓 Para: Todos", description: "MichiBot se mantiene funcionando gracias a que lo compran, tu tambien puedes adquirirlo", id: usedPrefix + "adquirir" }
+{ header: "💸 Comprar", title: "🔓 Para: Todos", description: "TruenoBot se mantiene funcionando gracias a que lo compran, tu tambien puedes adquirirlo", id: usedPrefix + "adquirir" }
 ]},
 { title: "🔖 Atajos", highlight_label: "Nuevo",
 rows: [
@@ -169,7 +169,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ⊜ *Pasatiempo(s)* ➺ ${user.pasatiempo === 0 ? '*Sin Registro*' : user.pasatiempo + '\n'}
 ⊜ *Experiencia ➟* ${exp} ⚡
 ⊜ *Diamantes ➟* ${limit} 💎
-⊜ *MichiCoins ➟* ${money} 🐈
+⊜ *TruenoCoins ➟* ${money} 🐈
 ⊜ *Tokens ➟* ${joincount} 🪙
 
 *╭━〔 🐈 OPCIONES DE MENU 🐈 〕⬣*
