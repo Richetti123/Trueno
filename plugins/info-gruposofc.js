@@ -1,8 +1,8 @@
 let handler = async (m, { conn, command }) => {
-let media = gataVidMenu
+let media = './Menu2.jpg'
 let str = `💕 𝘽𝙄𝙀𝙉𝙑𝙀𝙉𝙄𝘿𝙊(𝘼) 𝘼 𝙇𝙊𝙎 𝙂𝙍𝙐𝙋𝙊𝙎 𝙊𝙁𝙄𝘾𝙄𝘼𝙇𝙀𝙎
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-Te invito a que te unas a la comunidad de MichiBot y compartas tus dudas o recomendaciones con nosotros😸
+Te invito a que te unas a la comunidad de TruenoBot y compartas tus dudas o recomendaciones con nosotros😸
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 𓃠 *Versión de ${gt}*
 ➥ ${vs}
@@ -13,7 +13,7 @@ Te invito a que te unas a la comunidad de MichiBot y compartas tus dudas o recom
 🐈 *${canal1}*\n
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 *Por favor, no ingresar con números de Bots, y mantener el respeto.*`
-await conn.sendButton(m.chat, str, `𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼\n${asistencia}\n\n` + wm, media, [
+await conn.sendButton(m.chat, str, `𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼\n${asistencia}\n\n` + TruenoBot, media, [
 ['𝘾𝙪𝙚𝙣𝙩𝙖𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨 ✅', '.cuentasgb'],
 ['🎁 𝘿𝙤𝙣𝙖𝙧 | 𝘿𝙤𝙣𝙖𝙩𝙚', '.donar'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']], null, [
